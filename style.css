@@ -1,0 +1,180 @@
+/* body styles */
+body {
+    font-family: 'Arial', sans-serif;
+     background-image: radial-gradient( circle farthest-corner at 10.3% 21.8%,  rgba(236, 6, 117, 0.836) 0%, rgba(13,32,67,1) 90% );
+    color: #FADADD;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header styles */
+header {
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.114);
+    color:#FADADD;
+    /* position: sticky;
+    top: 0;
+    z-index: 1000; */
+    
+}
+
+
+/* nav bar styles */
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FADADD;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #FADADD;
+}
+
+/* section styles */
+section {
+    padding: 50px;
+    margin: 20px 0;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.114);
+}
+
+
+/* image styles */
+img{
+    height: 250px;
+    width: 400px;
+    
+}
+
+.project-gallery{
+    display: flex;
+    margin: 12px;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    color: #FADADD;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+
+/* footer styles */
+footer {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.114);
+}
+
+footer a {
+    color: #627d95;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #627d95;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    section {
+        padding: 30px;
+    }
+}
+
+
+/* form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.114);
+    border-radius: 8px;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+
+/* button styles */
+button {
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, #42275a 10%, #734b6d  71%);
+    
+         
+         
+
+         
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+
+button:active {
+    background-image: linear-gradient(to right, #42275a 10%, #734b6d  71%);/* Darker shade when clicked */
+}
+
+
+
+/* icon styles */
+a:hover {
+    color:rgba(236, 6, 117, 0.741);
+    text-decoration: underline;
+}
+
+a i {
+    font-size: 2rem;
+    color: rgb(236, 6, 117);
+    margin: 0 15px;
+}
+
+/* text color for all h, p */
+h, p{
+    color: rgb(224, 216, 216);
+}
